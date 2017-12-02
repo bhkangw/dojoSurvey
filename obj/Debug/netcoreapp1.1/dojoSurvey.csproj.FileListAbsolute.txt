@@ -1,0 +1,9 @@
+/Users/bkila/Desktop/dojoSurvey/bin/Debug/netcoreapp1.1/dojoSurvey.deps.json
+/Users/bkila/Desktop/dojoSurvey/bin/Debug/netcoreapp1.1/dojoSurvey.runtimeconfig.json
+/Users/bkila/Desktop/dojoSurvey/bin/Debug/netcoreapp1.1/dojoSurvey.runtimeconfig.dev.json
+/Users/bkila/Desktop/dojoSurvey/bin/Debug/netcoreapp1.1/dojoSurvey.dll
+/Users/bkila/Desktop/dojoSurvey/bin/Debug/netcoreapp1.1/dojoSurvey.pdb
+/Users/bkila/Desktop/dojoSurvey/obj/Debug/netcoreapp1.1/dojoSurvey.csproj.CoreCompileInputs.cache
+/Users/bkila/Desktop/dojoSurvey/obj/Debug/netcoreapp1.1/dojoSurvey.AssemblyInfo.cs
+/Users/bkila/Desktop/dojoSurvey/obj/Debug/netcoreapp1.1/dojoSurvey.dll
+/Users/bkila/Desktop/dojoSurvey/obj/Debug/netcoreapp1.1/dojoSurvey.pdb

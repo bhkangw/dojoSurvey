@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Index</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Survey:</h1>
+            <form action="/result" method="POST">
+                <p>Your Name:</p> <input class="form-control" type="text" name="name"><br>
+                <p>Dojo Location:</p> 
+                    <select name="location" class="form-control">
+                        <option value="Seattle">Seattle</option>
+                        <option value="Tulsa">Tulsa</option>
+                        <option value="SF">San Francisco</option>
+                        <option value="Burbank">Burbank</option>
+                    </select><br><br>
+                <p>Favorite Language:</p>
+                    <select name="language" class="form-control">
+                        <option value="Python">Python</option>
+                        <option value="MEAN">MEAN</option>
+                        <option value="C#">C#</option>
+                        <option value="Java">Java</option>
+                    </select><br><br>
+                <p>Comment (optional):</p> <input class="form-control" type="text" name="comment"><br>
+                <br><input class="btn btn-success" type="submit" value="Submit">
+                @foreach(var error in ViewBag.Errors) {
+                <p class="red">@error</p>
+                }
+            </form>
+        </div>
+    </div>
+</body>
+</html>
